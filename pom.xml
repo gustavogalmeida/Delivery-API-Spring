@@ -5,21 +5,21 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.0.2</version>
+		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.gustavoalmeida</groupId>
-	<artifactId>Delivery-API</artifactId>
+	<groupId>com.gustavoworks</groupId>
+	<artifactId>deliveryapi-spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Delivery-API</name>
-	<description>My API for delivery establishment</description>
+	<name>deliveryapi-spring</name>
+	<description>Delivery API developed in Spring</description>
 	<properties>
-		<java.version>19</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
+			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
 
 		<dependency>
